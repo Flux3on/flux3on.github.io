@@ -7,6 +7,6 @@ function getAge(dateString) {
         age--;
     }
     document.getElementById("age").innerHTML = "(Age " + age + ")";
-}
+};
 
 getAge("2003/10/31");
